@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+.main-container{
+    background-image: linear-gradient(#D8B5FF , #1EAE98);
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    text-align: center;
+}
+.head{
+    padding-top: 10%;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    margin-bottom: 5%;
+    transition: transform 0.2s ease;
+}
+.head:hover {
+    transform: scale(1.2); /* Zoom in by 20% on hover */
+}
+.description-box {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden; /* Ensures content doesn't overflow */
+    position: relative; 
+    transition: transform 0.3s ease; /* Add transition here if needed */
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    width: 95%;
+    margin-bottom: 25px;
+    overflow: hidden; /* Ensures content doesn't overflow */
+    position: relative; 
+}
+
+.container:hover .description-box {
+    transform: scale(1.1);
+   
+}
+.para{
+    margin: 2%;
+}
+
+
+
+.container1 {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+   
